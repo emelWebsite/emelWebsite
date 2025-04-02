@@ -43,8 +43,8 @@ header {
 
 .menu-button {
     position: fixed;
-    top: 1rem;
-    right: 0.5rem;
+    top: 0.5vh;
+    right: 0.15vw;
     background-color: #63261a;
     color: #e0cdb1;
     padding: 10px 15px;
