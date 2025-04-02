@@ -42,9 +42,9 @@ header {
 }
 
 .menu-button {
-    position: fixed;
-    top: 0.5vh;
-    right: 0.15vw;
+    position: absolute;
+    top: 10px;
+    right: 45px;
     background-color: #63261a;
     color: #e0cdb1;
     padding: 10px 15px;
