@@ -284,6 +284,11 @@ iframe, audio {
         display: none;
     }
 
+    .resume {
+        max-width: 95%;
+        height: auto;
+    }
+
     .welcomeContent {
         font-size: clamp(1rem, 1.25vw, 1.25vw);
         max-width: 70vw;
