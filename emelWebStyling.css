@@ -168,7 +168,7 @@ img {
 }
 
 .nameLogoImage {
-    width: min(200px, 13vw);
+    width: 25vw;;
     height: auto;
 }
 
