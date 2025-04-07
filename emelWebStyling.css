@@ -27,8 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #63261a;
-    color: #e0cdb1;
+    background-color: #e0cdb1;
+    color: #63261a;
     padding: 15px 30px;
     position: relative;
 }
@@ -45,8 +45,8 @@ header {
     position: absolute;
     top: 10px;
     right: 45px;
-    background-color: #63261a;
-    color: #e0cdb1;
+    background-color: #e0cdb1;
+    color:#63261a;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
@@ -61,7 +61,7 @@ header {
     top: 0px;
     width: 125px;
     height: 275px;
-    background-color: #63261a;
+    background-color: #e0cdb1;
     color: white;
     transition: right 0.3s ease-in-out;
     padding-top: 60px;
@@ -70,14 +70,23 @@ header {
 .sidebar a {
     display: block;
     padding: 15px;
-    color: #e0cdb1;
+    color: #63261a;
     text-decoration: none;
     font-size: 20px;
 }
-.menu-buttom:hover,
-.sidebar a:hover,
-.close-button {
-    background-color: #4c1111;
+.menu-buttom button:hover {
+    background-color: #e9dac2;
+}
+.sidebar a:hover {
+    background-color: #e9dac2;
+}
+
+.sidebar button {
+    color: #63261a;
+}
+
+.sidebar button:hover {
+    background-color: #e9dac2;
 }
 
 .sidebar.active {
@@ -109,7 +118,7 @@ img {
     align-items: center;
     position: relative;
     background: #fff8ed;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .button {
@@ -123,9 +132,6 @@ img {
 
 .headerImageLogo {
     float: left;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #63261a;
     border-radius: 200px;
     max-width: 7%;
     margin: 1rem;
@@ -159,8 +165,6 @@ img {
 }
 
 .nameLogoImage {
-    border: 5px solid #63261a;
-    border-radius: 5vw;
     width: 11.5vw;
     height: auto;
 }
@@ -176,12 +180,22 @@ img {
 }
 
 .photosLayout {
-    width: min(1000px, 100%);
+    width: 90%;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    columns: 200px 6;
-    column-gap: 1em;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.photosLayout img {
+    height: 50vh;
+    width: auto;
+    flex: 1 1 200px;
+    object-fit: cover;
 }
 
 .photosPageLogo {
@@ -258,8 +272,8 @@ iframe, audio {
     width: 100%;
     margin-top: 20px;
     padding: 10px;
-    background: #63261a;
-    color: #e0cdb1;
+    background: #e0cdb1;
+    color: #63261a;
 }
 
 @media (max-width: 560px) {
