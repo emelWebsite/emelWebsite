@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emel Sensoy</title>
+    <link rel="stylesheet" href="emelWebStyling.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html" id="welcomeLink">
+                <img id="logo" class="headerImageLogo" src="pictures/New logo.PNG">
+            </a>
+        </div>
+        <div class="title">
+            <div id="welcomePageTitle">
+                <span style="font-family: Snell Roundhand, cursive; font-size: 40px;">Emel Sensoy</span>
+            </div>
+            <div class="hidden" id="resumePageTitle">Resume</div>
+            <div class="hidden" id="photosPageTitle">Photos</div>
+            <div class="hidden" id="videosPageTitle">Videos</div>
+            <div class="hidden" id="aboutPageTitle">About</div>
+        </div>
+        <button class="menu-button" onclick="toggleSidebar()">Menu</button>
+        <div style="z-index: 100;" class="sidebar" id="sidebar">
+            <button class="close-button" onclick="toggleSidebar()">&times;</button>
+            <a href="index.html" id="welcomeLink">Home</a>
+            <a href="resumePage.html" id="resumeLink">Resume</a>
+            <a href="photosPage.html" id="photosLink">Photos</a>
+            <a href="videosPage.html" id="videosLink">Videos</a>
+            <a href="aboutPage.html" id="aboutLink">About</a>
+        </div>
+    </header>
+    
+    <div class="container">
+
+        <div id="welcomePage">
+            <img class="side-image leftWelcomeImage" src="pictures/e6bc4b82-8cbd-492b-ba70-fab777baec1d.jpg" alt="Picture1">
+            <div style="width: 500px;" class="welcomeContent">
+                <h3>Welcome!</h3>
+                <p> I&apos;m so glad you stopped by! Whether you&apos;re here to collaborate, cast, or simply learn more about my journey&ndash;welcome to my world of storytelling and performance. <br> <br>
+                    Take a look around, explore my work, and if something sparks your interest, I&apos;d love to hear from you. <br> <br>
+                    Let&apos;s connect and create something meaningful! <br> <br> </p>
+                    <p>&#9; With gratitude, Emel</p>
+            </div>
+            <img class="nameLogoImage" src="pictures/New logo.PNG" alt="nameLogo">
+            <img class="side-image rightWelcomeImage" src="pictures/IMG_5498.jpg" alt="Picture2">
+        </div>
+    </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <div>
+                <form id="contactForm" class="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="9afe25e0-dff9-4fae-aa94-97536eab5474">
+                    <input type="text" name="name" id="name" class="input-field" placeholder="Name" required>
+                    <input type="email" name="email" id="email" class="input-field" placeholder="Email" required> <br>
+                    <textarea id="message" name="message" rows="5" cols="15" class="input-field-text" placeholder="Message" required></textarea> <br>
+                    <button id="submitButton" type="submit" class="button">Send</button>
+                </form>
+            </div>
+        <div class="socialIcon">
+            <a href="https://instagram.com/emelsensoyy" target="_blank">
+                <img class="socialIcon" src="icons\instagramIcon.png" alt="Instagram">
+            </a>
+            <a href="https://youtube.com/@emelsensoyy" target="_blank">
+                <img class="socialIcon" src="icons\youtubeIcon.png" alt="Youtube">
+            </a>
+            <a href="https://x.com/emelsensoyy" target="_blank">
+                <img class="socialIcon" src="icons\twitterIcon.png" alt="X">
+            </a>
+            <a href="https://vimeo.com/emelsensoy" target="_blank">
+                <img style="border-radius: 8px;" class="socialIcon" src="icons\VimeoIcon.png" alt="Vimeo">
+            </a>
+        </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        &copy; 2025 Emel Sensoy. All Rights Reserved.
+    </footer>
+
+    <script src="emelWebFunction.js"></script>
+</body>
+</html>
