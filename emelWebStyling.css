@@ -286,6 +286,7 @@ iframe, audio {
 @media (max-width: 560px) {
 
     .welcomePageTitle {
+        font-family: Brush Script MT, Brush Script Std, cursive
         font-size: 40px;
     }
     .side-image {
