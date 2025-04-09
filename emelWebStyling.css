@@ -42,6 +42,10 @@ header {
     font-weight: bold;
 }
 
+.welcomePageTitle {
+    font-family: Brush Script MT, Brush Script Std, cursive
+    font-size: 50px
+}
 .menu-button {
     position: absolute;
     top: 10px;
@@ -280,6 +284,10 @@ iframe, audio {
 }
 
 @media (max-width: 560px) {
+
+    .welcomePageTitle {
+        font-size: 40px;
+    }
     .side-image {
         display: none;
     }
