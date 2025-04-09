@@ -282,12 +282,12 @@ iframe, audio {
 @media (max-width: 560px) {
 
     .title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 30px;
-    font-weight: bold;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 30px;
+        font-weight: bold;
     }
     
     .side-image {
