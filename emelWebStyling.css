@@ -212,7 +212,7 @@ img {
     margin-bottom: 10px;
 }
 
-iframe, audio {
+iframe, audio, video {
     margin: 1rem;
 }
 
@@ -304,3 +304,4 @@ iframe, audio {
         max-width: 70vw;
     }
 }
+
